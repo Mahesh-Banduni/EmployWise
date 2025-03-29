@@ -1,5 +1,5 @@
 import useLogin from "../hooks/useLogin";
-import { login } from "../utils/icons";
+import { background } from "../utils/icons";
 
 const Login = () => {
   const { formData, handleChange, handleSubmit, loading, status } = useLogin();
@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <div
       className="flex justify-center items-center min-h-screen bg-gray-100 px-4 sm:px-6 bg-cover bg-center"
-      style={{ backgroundImage: `url(${login})` }}
+      style={{ backgroundImage: `url(${background})` }}
     >
       <div className="bg-white bg-opacity-90 p-6 sm:p-8 rounded-lg shadow-lg w-full max-w-sm sm:max-w-md">
         <h2 className="text-gray-800 text-xl sm:text-2xl font-semibold text-center">

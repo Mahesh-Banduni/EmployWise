@@ -27,15 +27,15 @@ const routes = createBrowserRouter([
         path: "/",
         element: (
           <Suspense fallback={<Loader />}>
-            <Home />
+            <Login />
           </Suspense>
         ),
       },
       {
-        path: "/book-ride",
+        path: "/user-list",
         element: (
           <Suspense fallback={<Loader />}>
-            <BookRide />
+            <UserList />
           </Suspense>
         ),
       },

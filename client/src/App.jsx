@@ -1,8 +1,11 @@
 import React from 'react'
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
-    <><p className='text-5xl'>App</p></>
+    <>
+    <Outlet></Outlet>
+    </>
   )
 }
 
