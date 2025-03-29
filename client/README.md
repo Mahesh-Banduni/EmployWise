@@ -1,32 +1,8 @@
-# EmployWise Assignment 🛍  
+# React + Vite
 
-## 🔗 Live Demo  
-**Live Website:** [Visit Here](https://employwise.onrender.com/)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📌 Description  
-React application that integrates with the Reqres API to perform basic user management functions.
+Currently, two official plugins are available:
 
-## 🛠 Tech Stack  
-
-### Frontend  
-- **React.js**  
-- **Tailwind CSS**  
-- **Redux** (State Management)  
-- **Axios** (API Calls)  
-
-## 🚀 Installation & Setup  
-
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/Mahesh-Banduni/EmployWise.git  
-cd EmployWise  
-```
-
-### 2️⃣ Frontend Setup
-```sh
-cd client  
-npm install  
-cp .env.example .env  # Update environment variables  
-npm run dev  
-```
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
