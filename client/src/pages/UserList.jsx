@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import UserListCard from '../components/UserListCard';
 import useUserList from '../hooks/useUserList';
 import { useSelector } from 'react-redux';
@@ -7,7 +7,6 @@ import { Users } from 'lucide-react';
 import {useNavigate } from "react-router-dom";
 
 const AllUsers = () => {
-  
   const navigate = useNavigate();
   const { 
     fetchUsers,
@@ -15,7 +14,6 @@ const AllUsers = () => {
     deleteUser,
   } = useUserList();
 
-  // Get users and loading state from Redux store
   const users = useSelector(state => state.users.users);
   const loading = useSelector(state => state.users.loading);
 

@@ -1,7 +1,7 @@
 # EmployWise Assignment 🛍  
 
 ## 🔗 Live Demo  
-**Live Website:** [Visit Here](https://employwise.onrender.com/)
+**Live Website:** [Visit Here](https://employwise-60fm.onrender.com)
 
 ## 📌 Description  
 React application that integrates with the Reqres API to perform basic user management functions.

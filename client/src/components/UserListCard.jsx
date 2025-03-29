@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, ChevronUp, Edit, Trash2, Star, Mail } from 'lucide-react';
+import { Edit, Trash2, Mail } from 'lucide-react';
 import UserEditForm from './UserEditForm';
 
 const UserListCard = ({ user, onEdit, onDelete }) => {
