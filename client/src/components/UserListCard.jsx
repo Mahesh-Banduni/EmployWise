@@ -49,7 +49,7 @@ const UserListCard = ({ user, onEdit, onDelete }) => {
                         <div className="flex sm:flex justify-items-end space-x-2">
                             <button 
                                 onClick={handleEdit}
-                                className="flex items-center justify-center px-3 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition-colors shadow-sm"
+                                className="flex items-center justify-center px-3 py-2 bg-amber-600 text-white rounded hover:bg-amber-700 transition-colors shadow-sm"
                             >
                                 <Edit className="w-4 h-4 mr-2" />
                                 Edit

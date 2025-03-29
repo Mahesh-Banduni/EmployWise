@@ -11,7 +11,7 @@ const Login = () => {
     >
       <div className="bg-white bg-opacity-90 p-6 sm:p-8 rounded-lg shadow-lg w-full max-w-sm sm:max-w-md">
         <h2 className="text-gray-800 text-xl sm:text-2xl font-semibold text-center">
-          Welcome Back! Please Login
+          EmployWise Login
         </h2>
 
         {status.message && (

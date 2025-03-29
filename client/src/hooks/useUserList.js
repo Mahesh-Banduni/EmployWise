@@ -26,7 +26,7 @@ const useUserList = () => {
     try {
       const formData = new FormData();
       
-      // Append product data
+      // Append User data
       Object.keys(userData).forEach(key => {
         formData.append(key, userData[key]);
       });
