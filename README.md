@@ -1,4 +1,4 @@
-# EmployWise Assignment 🛍  
+# EmployWise Assignment 
 
 ## 🔗 Live Demo  
 **Live Website:** [Visit Here](https://employwise-60fm.onrender.com)
